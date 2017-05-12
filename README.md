@@ -5,7 +5,9 @@
 这个脚手架主要目的是为了记录学习过程。 在刚接触node时，我是通过github学习别人的代码，受益匪浅，但是当把代码clone到本地运行时，发现一个比较困恼的地方，之前做移动端开发时经常使用的断点调试无法使用，这主要是因为许多大神喜欢用es7之类的新特性或者import，这需要一些构建工具比如babel编译成平台能运行的代码，或者使用gulp批处理，这就导致实际运行的代码是编译输出后的代码，所以我们在ide工具里对源码的断点不会起作用，因为我们的源码根本不会执行，谈何处理我们的断点呢（不知道用前端的sourceMap可不可以在后端应用，如果你知道issu,感谢）。
 我感觉我接受不了，不让我断点太难受了。
 于是尝试更改别人的代码，尽量不使用nodejs不能直接运行的代码，这样就可以断点调试了。
+
 **需要Node.js版本大于等于v7.8.0，NPM大于等于v4.2.0。**
+
 该脚手架主要参考 访问：https://github.com/yi-ge/koa2-API-scaffold
 我的水平只能勉强算刚接触nodejs,如果你想有更多的收获强烈推荐学习这位仁兄的教程
 
@@ -13,7 +15,7 @@
 ------------
 
 ```
-$ git clone https://github.com/yi-ge/koa2-API-scaffold.git
+$ git clone git@github.com:zhuwei28/koa2-study.git
 
 $ cd mv koa2-myself
 $ npm install
